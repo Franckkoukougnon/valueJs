@@ -6,7 +6,7 @@ document.getElementById("gender").addEventListener("change", function (e) {
   document.getElementById("res-gender").innerHTML = e.target.value;
 });
 
-document.getElementById("result").addEventListener("mouseover", function (e) {
+document.getElementById("test").addEventListener("mouseover", function (e) {
   document.getElementById("mouse-x").innerHTML = e.offsetX;
 
   document.getElementById("mouse-y").innerHTML = e.offsetY;
